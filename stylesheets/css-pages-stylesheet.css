@@ -1,0 +1,118 @@
+body,
+html {
+  height: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://cdn.shopify.com/s/files/1/0036/4806/1509/products/8569dad9e3029550767b8974a1120305c006f0f1_square959339_1.jpg?v=1628185934");
+
+  /* Partial height to let full image show*/
+  height: 65%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+h1 {
+  width: 60%;
+  text-align: center;
+  font-size: 45px;
+  color: #a16100;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+div {
+  color: #633b00;
+  font-family: "Times New Roman", Times, serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+a:hover,
+a:focus {
+  color: rgb(32, 175, 218);
+  font-weight: bolder;
+  font-size: 53px;
+}
+/* This makes the hyperlink become bolder and turn yellow when the mouse hovers over it. */
+a {
+  font-size: 50px;
+}
+
+/* Copy and pasted stuff for a side bar (credits to www.w3schools.com/) */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(32, 21, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(66, 30, 0);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+#main {
+  position: fixed;
+  top: 0;
+
+  z-index: 2;
+
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}

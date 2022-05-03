@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="stylesheets/css-pages-stylesheet.css" />
+    <!--Stylesheets-->
+    <title>Practice</title>
+  </head>
+  <body style="background-color: rgb(255, 255, 249)">
+    <h1>Parallax Effects and Other Cool Stuff I Learned: Put Into Practice</h1>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">
+        ☰ Open Very Cool Sidebar
+      </button>
+    </div>
+    <div class="parallax"></div>
+
+    <div
+      style="
+        height: 100px;
+        background-color: rgb(255, 199, 146);
+        font-size: 80px;
+        text-align: center;
+      "
+    >
+      Mug Maniac
+    </div>
+    <div class="parallax"></div>
+    <br />
+    <img
+      src="https://c.tenor.com/duiQ_7RTjhMAAAAd/weightlifting-hog-rider.gif"
+      alt="the hog rider from clash of clans lifing weights while standing beside his hog and the king from clash royale"
+      class="center"
+    />
+    <p style="text-align: center; font-size: large">
+      <b>(Hog Rider is fueled by Mug)</b>
+    </p>
+    <br />
+    <a href="https://www.coolmathgames.com/" class="center"
+      >Play Coolmath Games</a
+    >
+    <br /><br /><br />
+    <!-- Sidebar Stuff (this is mostly copy and pasted, credits to www.w3schools.com/) -->
+    <nav id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="https://en.wikipedia.org/wiki/Among_Us"
+        >Among us: Still funny or dead meme?</a
+      >
+      <a href="https://www.roblox.com/upgrades/robux">Bobux</a>
+      <a href="https://store.steampowered.com/app/440/Team_Fortress_2/"
+        >Go Play Team Fortress 2 (very fun)</a
+      >
+    </nav>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>
