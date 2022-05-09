@@ -14,7 +14,13 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 70%;
-  /* Replace 70% with cover to return image to previous state */
+  /* Replace the 70% with cover to return image to previous state. */
+
+  /* 
+  This code can be used to change the image background alignment.
+  background-position-x: right;
+  background-position-y: center; 
+  */
 }
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
