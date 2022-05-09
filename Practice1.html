@@ -43,6 +43,23 @@
       >Play Coolmath Games</a
     >
     <br /><br /><br />
+    <button onclick="typeWriter()">Sus?</button>
+    <p id="demo" style="font-size: 50px; color: #741111"></p>
+    <script>
+      var i = 0;
+      var txt = "Red was not the imposter. (1 imposters remain)";
+      var speed = 100;
+      // Lower number = quicker speed
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("demo").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+    </script>
+    <br />
     <!-- Sidebar Stuff (this is mostly copy and pasted, credits to www.w3schools.com/) -->
     <nav id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
