@@ -30,6 +30,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   position: relative;
   left: 50%;
+  /* Adding support for many browsers */
   -ms-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
