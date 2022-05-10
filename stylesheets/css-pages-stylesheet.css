@@ -14,7 +14,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 72%;
-  /* Replace the 70% with cover to return image to previous state. */
+  /* Replace the percentage size with cover to return image to previous full web covering state. */
 
   /* 
   This code can be used to change the image background alignment.
