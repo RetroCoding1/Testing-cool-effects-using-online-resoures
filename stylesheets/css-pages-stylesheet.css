@@ -18,8 +18,8 @@ html {
 
   /* 
   This code can be used to change the image background alignment.
-  background-position-x: right;
-  background-position-y: center; 
+  background-position-x: left/right/center;
+  background-position-y: left/right/center; 
   */
 }
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
