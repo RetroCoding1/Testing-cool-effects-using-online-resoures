@@ -62,7 +62,7 @@ a:focus {
 /* This makes the hyperlink become bolder and turn yellow when the mouse hovers over it. */
 a {
   font-size: 50px;
-  text-shadow: 2px 2px;
+  text-shadow: 2.5px 2.5px rgb(37, 37, 37);
 }
 
 /* Copy and pasted stuff for a side bar (credits to www.w3schools.com/) */
