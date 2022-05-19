@@ -2,9 +2,6 @@ body,
 html {
   height: 100%;
 }
-body {
-  background-image: url(images/background.jpg);
-}
 .parallax {
   /* The image used */
   background-image: url("https://cdn.shopify.com/s/files/1/0036/4806/1509/products/8569dad9e3029550767b8974a1120305c006f0f1_square959339_1.jpg?v=1628185934");
