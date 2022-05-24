@@ -63,6 +63,7 @@ a:focus {
 a {
   font-size: 50px;
   text-shadow: 2.5px 2.5px 2.5px rgb(37, 37, 37);
+  transition: all 0.5s;
 }
 
 /* Copy and pasted stuff for a side bar (credits to www.w3schools.com/) */
