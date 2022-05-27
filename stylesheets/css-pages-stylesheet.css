@@ -74,7 +74,6 @@ a {
   transition: all 0.5s;
   /* The transition property makes the above changes a lot smoother.*/
 }
-
 /* Copy and pasted stuff for a side bar (credits to www.w3schools.com/) */
 .sidebar {
   height: 100%;
